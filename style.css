@@ -1,0 +1,44 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 60vh;
+    gap: 1px;
+    border: 1px solid lightgray;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    gap: 1px;
+}
+
+.square {
+    background-color: lightgray;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    margin: 20px 0px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: bisque;
+}
